@@ -17,10 +17,13 @@
   padding: 16px;
 }
 
+<<<<<<< HEAD
+=======
 .icon {
   max-height: 72px;
 }
 
+>>>>>>> 8e59e12 (feat: init)
 .h1 {
   margin-bottom: 0px;
 }

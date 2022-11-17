@@ -1,10 +1,23 @@
+<<<<<<< HEAD
+=======
 # React Javascript Solana Starter
 
+>>>>>>> 8e59e12 (feat: init)
 ## Getting Started
 
 Create a project using this example:
 
 ```bash
+<<<<<<< HEAD
+npx thirdweb create --template cra-javascript-starter
+```
+
+You can start editing the page by modifying `src/index.js`. The page auto-updates as you edit the file.
+
+On `src/index.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our hooks to work.
+
+on `src/App.js`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected. 
+=======
 npx thirdweb create --template cra-typescript-solana-starter
 ```
 
@@ -13,15 +26,23 @@ You can start editing the page by modifying `src/index.tsx`. The page auto-updat
 On `src/index.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our hooks to work.
 
 on `src/App.tsx`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected.
+>>>>>>> 8e59e12 (feat: init)
 
 ## Learn More
 
 To learn more about thirdweb, React and CRA, take a look at the following resources:
 
+<<<<<<< HEAD
+- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
+- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
+- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started) - learn about CRA features.
+=======
 - [thirdweb React Documentation](https://portal.thirdweb.com/react) - learn about our React SDK.
 - [thirdweb Solana Documentation](https://portal.thirdweb.com/solana) - learn about our Solana SDK.
 - [thirdweb SDK Documentation](https://portal.thirdweb.com/sdk) - learn about our JavaScript/TypeScript SDK.
 - [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
+>>>>>>> 8e59e12 (feat: init)
 - [React documentation](https://reactjs.org/) - learn React.
 
 You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!

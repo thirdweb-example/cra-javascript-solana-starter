@@ -1,6 +1,10 @@
 {
   "short_name": "react-javascript-starter",
+<<<<<<< HEAD
+  "name": "thirdweb starter project with React & JavaScript",
+=======
   "name": "thirdweb solana starter project with React",
+>>>>>>> 8e59e12 (feat: init)
   "icons": [
     {
       "src": "favicon.ico",

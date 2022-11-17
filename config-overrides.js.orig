@@ -2,6 +2,7 @@ const webpack = require("webpack");
 
 module.exports = function override(config) {
   const fallback = config.resolve.fallback || {};
+<<<<<<< HEAD
 
   Object.assign(fallback, {
     crypto: require.resolve("crypto-browserify"),
@@ -12,6 +13,8 @@ module.exports = function override(config) {
     zlib: require.resolve("browserify-zlib"),
   });
 
+=======
+>>>>>>> 8e59e12 (feat: init)
   config.resolve.fallback = fallback;
   config.plugins = (config.plugins || []).concat([
     new webpack.ProvidePlugin({
@@ -24,6 +27,14 @@ module.exports = function override(config) {
     test: /\.m?js/,
     resolve: {
       fullySpecified: false,
+<<<<<<< HEAD
+=======
+      fallback: {
+        crypto: require.resolve("crypto-browserify"),
+        zlib: require.resolve("browserify-zlib"),
+        path: require.resolve("path-browserify"),
+      },
+>>>>>>> 8e59e12 (feat: init)
     },
   });
 
@@ -32,6 +43,10 @@ module.exports = function override(config) {
     // This is needed to not show the warning about this modules don't have src files, only on dist (build)
     ignoreWarnings: [
       {
+<<<<<<< HEAD
+        // all node modules
+        module: /node_modules/,
+=======
         module: /node_modules\/@walletconnect/,
       },
       {
@@ -75,6 +90,7 @@ module.exports = function override(config) {
       },
       {
         module: /node_modules\/source-map-loader/,
+>>>>>>> 8e59e12 (feat: init)
       },
     ],
   };
